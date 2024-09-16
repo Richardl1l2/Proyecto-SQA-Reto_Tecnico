@@ -1,0 +1,2 @@
+contiene clases, son las acciones
+por ejemplo abrir el navegador
