@@ -16,25 +16,6 @@ plugins {
     id 'eclipse'
     id 'idea'
 }
-task updateConfigFile {
-    doLast {
-        def projectDir = file(projectDir).canonicalPath // Ruta absoluta del directorio del proyecto
-        // Reemplazar las barras diagonales invertidas (\) con barras diagonales (/)
-        def espaciador = "\\\\\\\\"
-        def formattedProjectDir = projectDir.replace("\\", espaciador)
-        def dataTestDir = "${formattedProjectDir}${espaciador}src${espaciador}test${espaciador}resources${espaciador}pruebaDirectorio"
-        def configFile = file("${formattedProjectDir}${espaciador}src${espaciador}test${espaciador}resources${espaciador}serenity.conf")
-
-        // Leer el contenido del archivo de configuración
-        def configContent = configFile.text
-
-        // Reemplazar el valor de download.default_directory con formattedProjectDir
-        def updatedConfig = configContent.replaceAll(/download.default_directory\s*=\s*\"[^\"]*\"/, "download.default_directory = \"$dataTestDir\"")
-
-        // Escribir el contenido actualizado de vuelta al archivo de configuración
-        configFile.write(updatedConfig)
-                }
-}
 
 
 
