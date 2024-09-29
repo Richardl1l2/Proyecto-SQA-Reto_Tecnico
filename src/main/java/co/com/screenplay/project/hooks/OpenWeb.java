@@ -5,7 +5,6 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
-import net.serenitybdd.screenplay.actions.OpenUrl;
 import net.thucydides.core.util.EnvironmentVariables;
 
 import static co.com.screenplay.project.utils.Constants.WEB_URL;
