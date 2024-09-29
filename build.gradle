@@ -7,13 +7,37 @@ buildscript {
         classpath("net.serenity-bdd:serenity-gradle-plugin:$serenityCoreVersion")
         classpath "net.serenity-bdd:serenity-single-page-report:$serenityCoreVersion"
     }
+
 }
+
 plugins {
     id "net.serenity-bdd.serenity-gradle-plugin" version "${serenityCoreVersion}"
     id 'java'
     id 'eclipse'
     id 'idea'
 }
+task updateConfigFile {
+    doLast {
+        def projectDir = file(projectDir).canonicalPath // Ruta absoluta del directorio del proyecto
+        // Reemplazar las barras diagonales invertidas (\) con barras diagonales (/)
+        def espaciador = "\\\\\\\\"
+        def formattedProjectDir = projectDir.replace("\\", espaciador)
+        def dataTestDir = "${formattedProjectDir}${espaciador}src${espaciador}test${espaciador}resources${espaciador}pruebaDirectorio"
+        def configFile = file("${formattedProjectDir}${espaciador}src${espaciador}test${espaciador}resources${espaciador}serenity.conf")
+
+        // Leer el contenido del archivo de configuración
+        def configContent = configFile.text
+
+        // Reemplazar el valor de download.default_directory con formattedProjectDir
+        def updatedConfig = configContent.replaceAll(/download.default_directory\s*=\s*\"[^\"]*\"/, "download.default_directory = \"$dataTestDir\"")
+
+        // Escribir el contenido actualizado de vuelta al archivo de configuración
+        configFile.write(updatedConfig)
+                }
+}
+
+
+
 
 defaultTasks 'clean','test','aggregate'
 apply plugin: 'net.serenity-bdd.serenity-gradle-plugin'
@@ -57,6 +81,7 @@ dependencies {
     implementation "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
     implementation "org.assertj:assertj-core:${assertJVersion}"
     implementation "ch.qos.logback:logback-classic:${logbackVersion}"
+    implementation group: 'org.apache.pdfbox', name: 'pdfbox', version: '2.0.27'
 
     compileOnly "org.projectlombok:lombok:${lombokVersion}"
     annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
@@ -79,3 +104,4 @@ serenity {
 
 gradle.startParameter.continueOnFailure = true
 test.finalizedBy(aggregate)
+
