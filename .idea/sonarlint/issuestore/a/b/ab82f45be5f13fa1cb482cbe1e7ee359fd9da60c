@@ -1,25 +1,0 @@
-
-p
-java:S1128"NRemove this unused import 'co.com.screenplay.project.interactions.GuardarPDF'.(¦Áø–üÿÿÿÿ8€š 2
-n
-java:S1128"QRemove this unused import 'co.com.screenplay.project.questions.LeerContenidoPDF'.(•›á8š 2
-i
-java:S1128"LRemove this unused import 'co.com.screenplay.project.ui.AccountComercialUi'.(£Çéà8š 2
-`
-java:S1128"CRemove this unused import 'co.com.screenplay.project.ui.DepositUi'.(—­èÜ8‚š 2
-h
-java:S1128"FRemove this unused import 'co.com.screenplay.project.ui.DowloadPdfUi'.(„ÂÀùÿÿÿÿÿ8‚š 2
-b
-java:S1128	"ERemove this unused import 'net.serenitybdd.screenplay.GivenWhenThen'.(×¦ñâ8‚š 2
-_
-java:S1128"=Remove this unused import 'net.serenitybdd.screenplay.Tasks'.(°Şªìşÿÿÿÿ8ƒš 2
-b
-java:S1128"ERemove this unused import 'net.serenitybdd.screenplay.actions.Click'.(€Äø8ƒš 2
-b
-java:S1128"ERemove this unused import 'net.serenitybdd.screenplay.actions.Enter'.(—×—ë8ÄéÑÂ 2
-d
-java:S1128"GRemove this unused import 'net.serenitybdd.screenplay.waits.WaitUntil'.(˜• Ü8ÅéÑÂ 2
-
-java:S1128"bRemove this unused import 'net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible'.(‡ª8ÅéÑÂ 2
-c
-java:S1128"ARemove this unused import 'org.hamcrest.Matchers.containsString'.(ÀÈÕúÿÿÿÿ8ƒš 2
