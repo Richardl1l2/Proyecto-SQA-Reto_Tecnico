@@ -16,10 +16,6 @@ public class PaginaPrincipalTask implements Task {
         this.texto = texto;
     }
 
-    public static PaginaPrincipalTask enElCampoNombre(String texto) {
-        return instrumented(PaginaPrincipalTask.class, texto);
-    }
-
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
@@ -27,8 +23,9 @@ public class PaginaPrincipalTask implements Task {
                 Click.on(PaginaPrincipalUi.NOTIFICACIONES),
                 Enter.theValue(texto).into(PaginaPrincipalUi.TEXT_BUSCAR),
                 Click.on(PaginaPrincipalUi.BUSCAR)
-
-
         );
+    }
+    public static PaginaPrincipalTask enElCampoNombre(String texto) {
+        return instrumented(PaginaPrincipalTask.class, texto);
     }
 }
