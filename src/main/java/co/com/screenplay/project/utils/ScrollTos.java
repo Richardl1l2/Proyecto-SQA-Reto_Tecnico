@@ -4,6 +4,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.thucydides.core.webdriver.ThucydidesWebDriverSupport;
 import org.openqa.selenium.JavascriptExecutor;
+
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class ScrollTos implements Interaction {

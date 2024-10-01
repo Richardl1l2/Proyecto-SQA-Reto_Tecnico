@@ -21,12 +21,11 @@ public class Hook {
     }
 
     @Given("{string} I open the browser")
-    public void iOpenTheBrowser(String actor) {
+    public void iOpenTheBrowser(String actor)  {
         OnStage.theActorCalled(actor).attemptsTo(
                 OpenWeb.browserURL()
         );
 
         waiting(TIME_SHORT);
-
     }
 }

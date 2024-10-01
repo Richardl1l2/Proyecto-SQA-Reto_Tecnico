@@ -1,40 +1,28 @@
 package co.com.screenplay.project.stepdefinition;
 
 
+import co.com.screenplay.project.tasks.PaginaPrincipalTask;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import lombok.extern.slf4j.Slf4j;
+import net.serenitybdd.screenplay.actors.OnStage;
+
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 
 @Slf4j
-public class OpenWebStep {
+public class AgregarAlCarrito {
+
+    @When("I go to{string}")
+    public void i_go_to(String articulo) {
+        theActorInTheSpotlight().attemptsTo(PaginaPrincipalTask.enElCampoNombre(articulo));
+
+    }
+    @Then("I should see the homepage title {string}")
+    public void iShouldSeeTheHomepageTitle(String textValidation) {
 
 
-    @When("el {string} navega al menú de productos")
-    public void el_navega_al_menú_de_productos(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
     }
-    @When("elige el artículo {string}")
-    public void elige_el_artículo(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-    @When("agrega el artículo al carrito")
-    public void agrega_el_artículo_al_carrito() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-    @Then("el {string} se ubica en el carrito de compras")
-    public void el_se_ubica_en_el_carrito_de_compras(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-    @Then("valida que el artículo en el carrito sea {string}")
-    public void valida_que_el_artículo_en_el_carrito_sea(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-
 
 }
