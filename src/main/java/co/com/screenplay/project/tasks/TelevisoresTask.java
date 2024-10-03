@@ -8,6 +8,9 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
+import static co.com.screenplay.project.utils.Constants.TIME_SHORT;
+import static co.com.screenplay.project.utils.Time.waiting;
+
 public class TelevisoresTask implements Task {
 
     @Override
@@ -16,10 +19,10 @@ public class TelevisoresTask implements Task {
                 Click.on(TelevisoresUi.AGREGARCARRITO),
                 Click.on(TelevisoresUi.CANTIDADES),
                 Click.on(TelevisoresUi.CANTIDADES),
-                Click.on(TelevisoresUi.AGREGARCARRITO_CANTIDADES)
-
-
+                Click.on(TelevisoresUi.AGREGARCARRITO_CANTIDADES),
+                Click.on(TelevisoresUi.IRALACESTA)
         );
+        waiting(TIME_SHORT);
     }
 
     public static TelevisoresTask agregarCarrito() {

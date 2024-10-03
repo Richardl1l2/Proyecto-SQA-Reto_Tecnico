@@ -5,31 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="843da7a1-9bb5-4a92-9226-cd703e834163" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/MenuHamburguesaTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/PaginaPrincipalTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/MenuHamburguesaUi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/PaginaPincipalUi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/utils/ScrollTos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/screenplay/project/stepdefinition/AgregarAlCarrito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0aac7d774b8a04d77c2dddf0134c02096f93d186" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/728b5da48db983a28f8c9d41cff997a1bc151149" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/8094e3f75bda1781fb4417dfc26e759d7d1e17c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a12e72be7ffcafe5f1f573806e47f6700f910be6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05e04b39e06605a85819451f7e31c94aa1ff65ed" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0aac7d774b8a04d77c2dddf0134c02096f93d186" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/2/728b5da48db983a28f8c9d41cff997a1bc151149" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/0/8094e3f75bda1781fb4417dfc26e759d7d1e17c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/1/a12e72be7ffcafe5f1f573806e47f6700f910be6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/05e04b39e06605a85819451f7e31c94aa1ff65ed" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/screenplay/project/stepdefinition/OpenWebStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/hooks/OpenWeb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/TelevisoresTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/tasks/TelevisoresTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/CarritoUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/CarritoUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/TelevisoresUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/screenplay/project/ui/TelevisoresUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/screenplay/project/runners/RunnerOpenWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/screenplay/project/runners/RunnerOpenWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/screenplay/project/stepdefinition/AgregarAlCarrito.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/com/screenplay/project/stepdefinition/hook/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/screenplay/project/stepdefinition/hook/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/openweb.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/openweb.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/openweb.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,29 +70,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "last_opened_file_path": "C:/Users/Richard/Desktop/Tester/Pruebas serenity bdd/Reto_Tecnico",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Richard/Desktop/Tester/Pruebas serenity bdd/Reto_Tecnico&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Richard\Desktop\Tester\Pruebas serenity bdd\Reto_Tecnico\src\test\resources\features" />
       <recent name="C:\Users\Richard\Desktop\Tester\Pruebas serenity bdd\projectBanistmo\Base-serenity-bdd-con-Screen-play\src\test\resources" />
       <recent name="C:\Users\Richard\Desktop\Tester\Pruebas serenity bdd\projectbase\src\main\java\co\com\screenplay\project\hooks" />
       <recent name="C:\Users\Richard\Desktop\Tester\Pruebas serenity bdd\projectbase\src\main\java\co\com\screenplay\project\questions" />
       <recent name="C:\Users\Richard\Desktop\Tester\Pruebas serenity bdd\projectbase\src\main\java\co\com\screenplay\project\tasks" />
-      <recent name="C:\Users\Richard\Desktop\Tester\Pruebas serenity bdd\projectbase\src\main\java\co\com\screenplay\project\ui" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.com.screenplay.project.ui" />
+      <recent name="co.com.screenplay.project.tasks" />
+      <recent name="co.com.screenplay.project.stepdefinition" />
+      <recent name="co.com.screenplay.project.questions" />
       <recent name="co.com.screenplay.project.utils" />
-      <recent name="co.com.screenplay.project.hooks" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.RunnerOpenWeb">
+    <configuration name="Feature: ValidarPrecioUnitario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ValidarPrecioUnitario.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors co.com.screenplay.project.stepdefinition.hook" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="projectbase.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="ARGS_FILE" />
+      <option name="SUGGESTED_NAME" value="Feature: ValidarPrecioUnitario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: openweb" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/openweb.feature" />
@@ -198,6 +209,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: ValidarPrecioUnitario" />
       <item itemvalue="Cucumber Java.Feature: openweb" />
       <item itemvalue="Cucumber Java.Scenario: Open the browser and go to the homepage" />
       <item itemvalue="Gradle.Base-serenity-bdd-con-Screen-play [updateConfigFile]" />
@@ -206,6 +218,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.RunnerOpenWeb" />
+        <item itemvalue="Cucumber Java.Feature: ValidarPrecioUnitario" />
         <item itemvalue="Cucumber Java.Feature: openweb" />
         <item itemvalue="Gradle.Base-serenity-bdd-con-Screen-play [updateConfigFile]" />
         <item itemvalue="Cucumber Java.Scenario: Open the browser and go to the homepage" />

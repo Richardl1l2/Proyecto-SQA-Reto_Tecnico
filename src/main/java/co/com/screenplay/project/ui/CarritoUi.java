@@ -9,6 +9,6 @@ public class CarritoUi {
         throw new IllegalStateException("Utility class");
     }
 
-    public static final Target CARRITO = Target.the("Revisar carrito").located(By.xpath("(//div[contains(.,'0Cesta0')])[7]"));
+    public static final Target CARRITO = Target.the("Revisar carrito").located(By.xpath("(//span[contains(text(),'COP')])[2]"));
 
 }

@@ -1,6 +1,6 @@
 package co.com.screenplay.project.stepdefinition.hook;
 
-import co.com.screenplay.project.hooks.OpenWeb;
+import co.com.screenplay.project.hooks.EjecutarNavegador;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import net.serenitybdd.screenplay.actors.OnStage;
@@ -20,12 +20,11 @@ public class Hook {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @Given("{string} I open the browser")
-    public void iOpenTheBrowser(String actor)  {
+    @Given("{string} abre navegador")
+    public void abre_navegador(String actor) {
         OnStage.theActorCalled(actor).attemptsTo(
-                OpenWeb.browserURL()
+                EjecutarNavegador.browserURL()
         );
-
         waiting(TIME_SHORT);
     }
 }
